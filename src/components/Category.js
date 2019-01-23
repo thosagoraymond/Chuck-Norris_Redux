@@ -13,13 +13,14 @@ import { connect } from 'react-redux';
     previous() {
         this.slider.slickPrev()
     }
-
     selectedCategory(e){
         this.props.fetchCategory(e);
     }
 
     render() {
         const { categories, loading } = this.props;
+
+        console.log("Logging loading state", loading)
 
         var settings = {
             infinite: true,
@@ -65,7 +66,7 @@ import { connect } from 'react-redux';
             ]
           };
 
-        //wrapping up the UI as you wish to render loader.
+        //wrapping up the UI as to render the loader.
        if(loading) {
             return (
                 <h2>Loading....</h2>

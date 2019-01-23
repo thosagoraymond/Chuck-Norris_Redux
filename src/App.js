@@ -23,7 +23,7 @@ class App extends Component {
                   <NavBar />
                   <HomePage category={category} />
                 </div>)
-                  : <div className="centered"><Loader type="Puff" color="#00BFFF" height="200" width="200"/>Loading...</div>
+                  : <div className="centered"><Loader type="Puff" color="#00BFFF" height="200" width="200"/>Loading ...</div>
               }
           </div>
       </div>

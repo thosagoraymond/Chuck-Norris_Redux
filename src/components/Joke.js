@@ -1,20 +1,12 @@
 import React from 'react';
 import { Card, CardTitle, CardImgOverlay, CardImg } from 'reactstrap';
-// import Loader from 'react-loader-spinner';
 import img from '../assets/img/wallpaper.jpg'
 
  class Joke extends React.Component {
-   constructor(){
-     super();
-     this.state={
-      //  data:[],
-      //  joke:[]
-    }
-  }
 
   render() {
     const { joke } = this.props;
-    //console.log("Joke object is ",joke);
+ 
     return (
       <div style={{paddingTop: '20px'}}>
         <div >

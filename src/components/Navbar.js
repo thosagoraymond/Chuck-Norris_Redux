@@ -20,7 +20,7 @@ class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md" fixed="top">
-           <NavbarBrand href="/">ChuckNoris Jokes</NavbarBrand>
+           <NavbarBrand href="/">Chuck Norris Jokes</NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
                   <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
@@ -28,7 +28,7 @@ class NavBar extends React.Component {
                           <NavLink href="/components/">Random Jokes</NavLink>
                         </NavItem>
                         <NavItem>
-                          <NavLink href="#">GitHub</NavLink>
+                          <NavLink href="https://github.com/thosagoraymond/Chuck-Norris_Redux">GitHub</NavLink>
                         </NavItem>
                     </Nav>
                   </Collapse>

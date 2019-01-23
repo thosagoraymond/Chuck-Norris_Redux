@@ -6,7 +6,7 @@ import Joke from '../components/Joke';
  class Homepage extends React.Component {
   render() {
     return (
-      <div className="container" >
+      <div className="container">
           <Col sm="12"><Joke joke={this.props.category}/></Col>
           <Col sm="12"><Category/></Col>
       </div>
